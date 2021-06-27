@@ -20,13 +20,13 @@ export const Wrapper = styled.View`
 
 export const Title = styled.Text`
   font-family: ${fonts.heading};
-  font-size: 32;
+  font-size: 32px;
   font-weight: bold;
   line-height: 38px;
 
   text-align: center;
   color: ${colors.heading};
-  margin-top: 38;
+  margin-top: 38px;
 `;
 
 export const Subtitle = styled.Text`

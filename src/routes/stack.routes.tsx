@@ -6,6 +6,7 @@ import UserIdentification from "../pages/UserIdentification";
 import Confirmation from "../pages/Confirmation";
 
 import colors from "../../styles/colors";
+import PoolSelect from "../pages/PoolSelect";
 
 const stackRoutes = createStackNavigator();
 
@@ -26,6 +27,8 @@ const appRoutes: React.FC = () => (
     />
 
     <stackRoutes.Screen name="Confirmation" component={Confirmation} />
+
+    <stackRoutes.Screen name="PoolSelect" component={PoolSelect} />
   </stackRoutes.Navigator>
 );
 

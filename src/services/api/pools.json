@@ -1,0 +1,22 @@
+{
+  "coins_mining": [
+    { "key": "eth", "name": "Ethereum" },
+    { "key": "rvn", "name": "Ravencoin" },
+    { "key": "beam", "name": "Beam" }
+  ],
+
+  "pools": [
+    {
+      "id": 1,
+      "name": "Flexpool",
+      "logo": "https://github.com/flexpool/frontend/blob/dev/src/assets/icon.svg",
+      "coins": ["ETH"]
+    },
+    {
+      "id": 2,
+      "name": "Sparkpool",
+      "logo": "https://github.com/Farontier/docs/blob/master/website/static/img/logo.svg",
+      "coins": ["ETH, BEAM"]
+    }
+  ]
+}
